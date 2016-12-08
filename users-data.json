@@ -1,8 +1,8 @@
 {
-    "todo": [
+    "dialog": [
       {
-        "what": "Meet up with Dad",
-        "body": {
+        "dialogText": "Meet up with Dad",
+        "choices": {
           "where": "Cloud City Bridge",
 
         }
