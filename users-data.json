@@ -1,10 +1,11 @@
 {
-    "dialog": [
+    "dialog1": [
       {
         "dialogText": "Meet up with Dad",
         "choices": {
-          "where": "Cloud City Bridge",
-
+          "choice1": "Cloud City Bridge",
+          "choice2": "",
+          "choice3": ""
         }
       },
       {
