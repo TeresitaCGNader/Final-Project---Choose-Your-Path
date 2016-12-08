@@ -8,11 +8,7 @@
           "choice3": "Play dead"
         }
       },
-      {
-        "what": "Pick up Han",
-        "body": {
-          "where": "Jabba's"
-        }
       }
     ]
   }
+}
