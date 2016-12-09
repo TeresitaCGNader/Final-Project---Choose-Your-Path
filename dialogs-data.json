@@ -1,9 +1,9 @@
 {
   "dialog": {
-        "dialogText": "Meet up with Dad",
+        "dialogText": "dialogs data dialog0",
         "choice": {
-          "choice1Text": "Cloud City Bridge",
-          "choice1Link": "Don't forget lightsaber",
+          "choice1Text": "dialogs data choice 1",
+          "choice1Link": "/dialog1.html",
           "choice2Text": "text",
           "choice2Link": "link",
           "choice3Text": "text",
