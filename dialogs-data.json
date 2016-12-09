@@ -9,17 +9,17 @@
           "choice3Text": "text",
           "choice3Link": "link"
         }
-},
+    },
 
-"dialog1": {
-      "dialogText": "Meet up with Dad",
-      "choice": {
-        "choice1Text": "Cloud City Bridge",
-        "choice1Link": "Don't forget lightsaber",
-        "choice2Text": "text",
-        "choice2Link": "link",
-        "choice3Text": "text",
-        "choice3Link": "link"
+    "dialog1": {
+          "dialogText": "Meet up with Dad",
+          "choice": {
+            "choice1Text": "Cloud City Bridge",
+            "choice1Link": "Don't forget lightsaber",
+            "choice2Text": "text",
+            "choice2Link": "link",
+            "choice3Text": "text",
+            "choice3Link": "link"
       }
-}
+  }
 }

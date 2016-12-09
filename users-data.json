@@ -1,18 +1,9 @@
 {
-    "dialog1": [
-      {
+
         "dialogText": "Meet up with Dad",
         "choices": {
           "choice1": "Cloud City Bridge",
           "choice2": "",
           "choice3": ""
-        }
-      },
-      {
-        "what": "Pick up Han",
-        "body": {
-          "where": "Jabba's"
-        }
-      }
-    ]
-  }
+
+}
