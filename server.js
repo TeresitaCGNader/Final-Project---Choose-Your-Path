@@ -79,18 +79,24 @@ app.get('/games.html', function (req, res) {
   });
 });
 
+// Render the OurGame page for the root URL path ('/OurGame.html').
 app.get('/OurGame.html', function (req, res) {
   res.render('OurGame-page', {
     pageTitle: 'A Day Without Dragons'
   });
 });
 
+// Render the OurGame page for the root URL path ('/OurGame').
 app.get('/OurGame', function (req, res) {
   res.render('OurGame-page', {
     pageTitle: 'A Day Without Dragons'
   });
 });
 
+/*
+ * Use a dynamic route to render a page for each individual dialog. Provide
+ * that dialog's data to Handlebars so it can fill out the dialog-page.
+ */
 app.get('/dialogs-data/:dialog', function (req, res, next) {
     var dialog = usersData[req.params.dialog];
 
@@ -104,18 +110,21 @@ app.get('/dialogs-data/:dialog', function (req, res, next) {
     }
 });
 
+// Render the ending1 page for the root URL path ('/ending1.html').
 app.get('/ending1.html', function (req, res) {
   res.render('ending1-page', {
     pageTitle: 'Ending #1'
   });
 });
 
+// Render the ending2 page for the root URL path ('/ending2.html').
 app.get('/ending2.html', function (req, res) {
   res.render('ending2-page', {
     pageTitle: 'Ending #2'
   });
 });
 
+// Render the ending3 page for the root URL path ('/ending3.html').
 app.get('/ending3.html', function (req, res) {
   res.render('ending3-page', {
     pageTitle: 'Ending #3'
