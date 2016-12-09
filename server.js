@@ -3,26 +3,10 @@ var path = require('path');
 var express = require('express');
 var exphbs = require('express-handlebars');
 var bodyParser = require('body-parser');
-var mysql = require('mysql');
 
 var app = express();
 var usersData = require('./dialogs-data');
 var port = process.env.PORT || 3000;
-
-/*
- * Read info about the MySQL connection from the environment and use it to
- * make the connection.
- */
- var mysqlHost = 'mysql.cs.orst.edu';
- var mysqlUser = 'cs290_guzmannt';
- var mysqlPassword = '1287';
- var mysqlDB = 'cs290_guzmannt';
-var mysqlConnection = mysql.createConnection({
-    host: mysqlHost,
-    user: mysqlUser,
-    password: mysqlPassword,
-    database: mysqlDB
-  });
 
 
 /*
@@ -163,12 +147,7 @@ app.get('*', function(req, res) {
  * as long as our server is running.  Start the server listening on the
  * specified port if we succeeded in opening the connection.
  */
-mysqlConnection.connect(function(err) {
-  if (err) {
-    console.log("== Unable to make connection to MySQL Database.")
-    throw err;
-  }
-  app.listen(port, function () {
-    console.log("== Listening on port", port);
-  });
-});
+ // Listen on the specified port.
+ app.listen(port, function () {
+   console.log("== Listening on port", port);
+ });
