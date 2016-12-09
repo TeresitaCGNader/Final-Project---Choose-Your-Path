@@ -10,16 +10,13 @@ var todoTemplate = Handlebars.templates.todo;
  * included in the HTML string.
  */
 function generateTodoHTML(what, where, when, who, details) {
-    var data = {
-        what: what,
-            body: {
-                where: where,
-                // when: when,
-                // who: who,
-                // details: details
-            }
-    }
-
+  var data = {
+    what: what,
+    body: {
+    where: where,
+    when: when,
+    who: who,
+    details: details} 
+  }
   return todoTemplate(data);
-
 }

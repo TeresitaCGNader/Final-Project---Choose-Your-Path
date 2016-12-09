@@ -6,30 +6,24 @@
 				<!-- <div id="content"> -->
 				  <div class="person">
 					  <p class ="para">
-						  Upon his death bed your grandfather holds your hand and explains "You see this house, when your father was alive he wanted you to live peacefully without worrying about money so he had begun to build this place for you and your mother, unfortunately they both died in that horrible accident and he couldn't finish the task. I love you, since the first time I saw you when you were little and all these years taking care of you have been wonderful, but I am very old and my time is counted. My dear I want you to have this house, and live a happy life like your father and mother wanted for you."
+						  {{dialogText}}
 					  </p>
-					  <span>&nbsp;</span>
-					  <p>
-						  Your grandfather died a few days later.
-						  As usual you went to the river to take a walk, but something was different this time...
-					  </p>
-					  <span>&nbsp;</span>
-
-
-				  </div>
+					</div>
 				  <button class="button" style="vertical-align:middle"><span>
-					  <a href="\dialog1.html">
-						  Go towards the town
+					  <a href="{{body.choice1Link}}">
+						  {{body.choice1Text}}
 					  </a>
 				   </span></button>
-				   <button class="button" style="vertical-align:middle"><span>
-					   <a href="\dialog2.html">
-						   Go towards the farm
-					   </a>
+					 <button class="button" style="vertical-align:middle"><span>
+ 					  <a href="{{body.choice2Link}}">
+ 						  {{body.choice3Text}}
+ 					  </a>
  				   </span></button>
-				   <button class="button" style="vertical-align:middle"><span>  <a href="\dialog3.html">Go towards the forest</a>
-					   </span></button>
-				<!-- </div> -->
+					 <button class="button" style="vertical-align:middle"><span>
+ 					  <a href="{{body.choice1Link}}">
+ 						  {{body.choice3Text}}
+ 					  </a>
+ 				   </span></button>
 			</div>
 		<div id="footer">
 	</body>

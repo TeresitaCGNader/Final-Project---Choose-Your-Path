@@ -6,24 +6,8 @@ var bodyParser = require('body-parser');
 var mysql = require('mysql');
 
 var app = express();
-//var usersData = require('./users-data');
+var dialogsData = require('./dialogs-data');
 var port = process.env.PORT || 3000;
-
-/*
- * Read info about the MySQL connection from the environment and use it to
- * make the connection.
- */
- var mysqlHost = 'mysql.cs.orst.edu';
- var mysqlUser = 'cs290_guzmannt';
- var mysqlPassword = '1287';
- var mysqlDB = 'cs290_guzmannt';
-var mysqlConnection = mysql.createConnection({
-    host: mysqlHost,
-    user: mysqlUser,
-    password: mysqlPassword,
-    database: mysqlDB
-  });
-
 
 /*
  * Set up Express to use express-handlebars as the view engine.  This means
@@ -55,12 +39,6 @@ app.get('/', function (req, res) {
 
 // Render the home page for the root URL path ('/home').
 app.get('/home', function (req, res) {
-  res.render('home-page', {
-    pageTitle: 'Home'
-  });
-});
-
-app.get('people/home.html', function (req, res) {
   res.render('home-page', {
     pageTitle: 'Home'
   });
@@ -210,6 +188,30 @@ app.get('/ending3.html', function (req, res) {
   });
 });
 
+/*
+ * Use a dynamic route to render a page for each individual dialog.  Provide
+ * that dialog's data to Handlebars so it can fill out the template.
+ */
+app.get('/:dialog', function (req, res, next) {
+
+  var dialog = dialogsData[req.params.dialog];
+
+  if (dialog) {
+
+    res.render('dialog-page', {
+      dialog: dialog,
+    });
+
+  } else {
+
+    // If we don't have info for the requested dialog, fall through to a 404.
+    next();
+
+  }
+
+});
+
+
 // If we didn't find the requested resource, send a 404 error.
 app.get('*', function(req, res) {
   res.status(404).render('404-page', {
@@ -217,17 +219,7 @@ app.get('*', function(req, res) {
   });
 });
 
-/*
- * Make a connection to our MySQL database.  This connection will persist for
- * as long as our server is running.  Start the server listening on the
- * specified port if we succeeded in opening the connection.
- */
-mysqlConnection.connect(function(err) {
-  if (err) {
-    console.log("== Unable to make connection to MySQL Database.")
-    throw err;
-  }
-  app.listen(port, function () {
-    console.log("== Listening on port", port);
-  });
+// Listen on the specified port.
+app.listen(port, function () {
+  console.log("== Listening on port", port);
 });
