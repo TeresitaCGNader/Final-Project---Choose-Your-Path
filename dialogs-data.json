@@ -12,26 +12,26 @@
     },
 
   "dialog1": {
-        "dialogText": "dialog 1 text",
+        "dialogText": "The town is on fire, the villagers run desperately trying to rescue their families and possessions from their blazing homes. An army of men dressed with golden armor raid the city, but they don’t seem like common thieves, in fact they don’t take anything from the houses. You wonder what is happening when a soldier notices you and begins to chase you. You now remember a story your grandfather used to tell you about men dressed as the sun, those men dressed in golden armor are the dragons' soldiers.",
         "choice": {
-          "choice1Text": "Cloud City Bridge",
-          "choice1Link": "Don't forget lightsaber",
-          "choice2Text": "text",
-          "choice2Link": "link",
-          "choice3Text": "text",
-          "choice3Link": "link"
+          "choice1Text": "Confront the soldier",
+          "choice1Link": "/dialogs-data/dialog11",
+          "choice2Text": "Run towards the forest",
+          "choice2Link": "/dialogs-data/dialog12",
+          "choice3Text": "Play dead",
+          "choice3Link": "/dialogs-data/dialog13"
         }
     },
 
   "dialog2": {
-        "dialogText": "dialog 2 text",
+        "dialogText": "As you approach the farm, you see that the soldiers are setting the farm ablaze. Farm animals are escaping from the barn, and running towards a near by field, where no soldiers are posted. Towards the entrance of the stables is an old man, stabbed through the heart, pegged to a wall. His eyes were widened in horror. A soldier must have stabbed him, as he was trying to free his animals. You hear a woman's scream, and notice a few yards off group of soldiers ripping away her clothes.",
         "choice": {
-          "choice1Text": "Cloud City Bridge",
-          "choice1Link": "Don't forget lightsaber",
-          "choice2Text": "text",
-          "choice2Link": "link",
-          "choice3Text": "text",
-          "choice3Link": "link"
+          "choice1Text": "Use the animals to distract the soldiers, while you rescue the girl",
+          "choice1Link": "/dialogs-data/dialog21",
+          "choice2Text": "Take the sword from the dead-mans body, and defend the girl",
+          "choice2Link": "/dialogs-data/dialog22",
+          "choice3Text": "Hide, and scream that the royal guard is coming",
+          "choice3Link": "/dialogs-data/dialog23"
         }
     },
 

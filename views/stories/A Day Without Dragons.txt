@@ -18,8 +18,6 @@ Hundred of years have passed and nobody have seen a dragon since then. This is w
 
 +Continue button->
 
-Personalize your character:
--You name is: "name"
 
 
 Dialog:
