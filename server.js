@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 var mysql = require('mysql');
 
 var app = express();
-//var usersData = require('./users-data');
+var usersData = require('./dialogs-data');
 var port = process.env.PORT || 3000;
 
 /*

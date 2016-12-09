@@ -914,11 +914,12 @@ text-shadow: 2px 2px 5px #120c0b
 #add-note-button {
   width: 200px;
   height: 64px;
-  background-color: red;
+  background-color: maroon;
+ font-family: Volkhov;
   border: none;
-  border-radius: 32px;
+  border-radius: 15px;
   box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.25);
-  color: white;
+  color: wheat;
   font-size: 18px;
   font-weight: 200;
   padding: 0 0 8px 0;
@@ -988,10 +989,7 @@ text-shadow: 2px 2px 5px #120c0b
 }
 
 .add-note-button-container {
-  position: fixed;
-  bottom: 35px;
-  right: 35px;
-  z-index: 10;
+  float: right;
 }
 
 
