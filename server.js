@@ -44,12 +44,6 @@ app.get('/home', function (req, res) {
   });
 });
 
-app.get('people/home.html', function (req, res) {
-  res.render('home-page', {
-    pageTitle: 'Home'
-  });
-});
-
 // Render the home page for the root URL path ('/home.html').
 app.get('/home.html', function (req, res) {
   res.render('home-page', {
@@ -96,13 +90,6 @@ app.get('/OurGame', function (req, res) {
     pageTitle: 'A Day Without Dragons'
   });
 });
-
-// Render the game page for the root URL path ('/dialog1.html').
-// app.get('/dialog.html', function (req, res) {
-//   res.render('dialog-page', {
-//     pageTitle: 'Dialog'
-//   });
-// });
 
 app.get('/dialogs-data/:dialog', function (req, res, next) {
     var dialog = usersData[req.params.dialog];
