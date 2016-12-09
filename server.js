@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 var mysql = require('mysql');
 
 var app = express();
-var storyData = require('./users-data');
+//var usersData = require('./users-data');
 var port = process.env.PORT || 3000;
 
 /*
@@ -113,27 +113,12 @@ app.get('/OurGame', function (req, res) {
   });
 });
 
-app.get('/:dialog', function(req, res, next){
-	var dialog = storyData[req.params.user];
-
-	if (dialog){
-		res.render('dialog-page',{
-        title: 'dialog -' + dialog.name,
-		user: user,
-        userName: user.name});
-
-	}
-    else {
-        next();
-    }
+// Render the game page for the root URL path ('/dialog1.html').
+app.get('/dialog.html', function (req, res) {
+  res.render('dialog-page', {
+    pageTitle: 'Dialog'
+  });
 });
-
-// // Render the game page for the root URL path ('/dialog1.html').
-// app.get('/dialog.html', function (req, res) {
-//   res.render('dialog-page', {
-//     pageTitle: 'Dialog'
-//   });
-// });
 
 app.get('/dialog1.html', function (req, res) {
   res.render('dialog1-page', {
