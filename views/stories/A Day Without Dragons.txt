@@ -29,32 +29,33 @@ As usual you went to the river to take a walk, but something was different this 
 You heard screams, and you...(Choose what you would like to do)
 
 1- Choice: Go towards the town
-Dialog 1.:
-	The town is on fire, the villagers run desperately trying to rescue their families and possessions from their blazing homes. An army of men dressed with golden armor raid the city, but they don’t seem like common thieves, in fact they don’t take anything from the houses. You wonder what is happening when a soldier notices you and begins to chase you. You now remember a story your grandfather used to tell you about men dressed as the sun, those men dressed in golden armor are the dragons' soldiers.
+		Dialog 1:
+			The town is on fire, the villagers run desperately trying to rescue their families and possessions from their blazing homes. An army of men dressed with golden armor raid the city, but they don’t seem like common thieves, in fact they don’t take anything from the houses. You wonder what is happening when a soldier notices you and begins to chase you. You now remember a story your grandfather used to tell you about men dressed as the sun, those men dressed in golden armor are the dragons' soldiers.
 
-	1.1 - Choice: Confront the soldier
-			Dialog1.1
-			Before you can move a spout of flame falls from the sky and in a second all the soldiers are gone.
-			There is no trace of them, not even a piece of armor. Suddenly you hear those strange screams. You follow the noise till you reach a beautiful hot spring.
-			At the shore of the hot spring you notice a scaled figure covered in blood. As you approach you realize its a dragon. You have never seen one before, but you had heard of these large scaled creatures that breathe fire.
+			Choice #1: Confront the soldier
+						Dialog 1.1:
+						Before you can move a spout of flame falls from the sky and in a second all the soldiers are gone.
+						There is no trace of them, not even a piece of armor. Suddenly you hear those strange screams. You follow the noise till you reach a beautiful hot spring.
+						At the shore of the hot spring you notice a scaled figure covered in blood. As you approach you realize its a dragon. You have never seen one before, but you had heard of these large scaled creatures that breathe fire.
 
-	1.2 - Choice: Run towards the forest
-			Dialog1.2
-			You enter the forest and you hear the soldiers footsteps as they enter the town. You duck into some near-by bushes, and wait until you can distinguish both the location and the intentions of the soldiers. As the soldiers come into sight, you see that the soldiers are dragging a chain net. At first you don't realize what is in it, it looks strange and foreign, but it dawns on you that it is a dragon! The dragon moves desperately to break from the net and after some struggle he escapes and kills the soldiers. The dragon hasn't noticed you, but you can see how his movements are getting slower as he seems to be losing blood from the wound on his side.
+			Choice #2: Run towards the forest
+						Dialog 1.2:
+						You enter the forest and you hear the soldiers footsteps as they enter the town. You duck into some near-by bushes, and wait until you can distinguish both the location and the intentions of the soldiers. As the soldiers come into sight, you see that the soldiers are dragging a chain net. At first you don't realize what is in it, it looks strange and foreign, but it dawns on you that it is a dragon! The dragon moves desperately to break from the net and after some struggle he escapes and kills the soldiers. The dragon hasn't noticed you, but you can see how his movements are getting slower as he seems to be losing blood from the wound on his side.
 
-	1.3 - Choice: Play dead
-			Dialog1.3
-			The soldier approaches you aggressively. His brows are furrowed, and he draws his sword, and quickly slashes at you. You feel a shot of pain in your abdomen and fall to the ground. With his business done, the soldier walks back to his troupe. You realize you aren't mortally hurt, but it was such a surprise that he did that! Not wanting to confront another solider, or worse, have them actually kill you, you decide to just lay there pretending to be dead.
+			Choice #3: Play dead
+						Dialog 1.3:
+						The soldier approaches you aggressively. His brows are furrowed, and he draws his sword, and quickly slashes at you. You feel a shot of pain in your abdomen and fall to the ground. With his business done, the soldier walks back to his troupe. You realize you aren't mortally hurt, but it was such a surprise that he did that! Not wanting to confront another solider, or worse, have them actually kill you, you decide to just lay there pretending to be dead.
 
-			You see smoke in the forest some distance off, the soldiers notice it, and head in that direction. You're safe now, the soldiers are gone, no one is around. You stand up, looking around, and see the ruin the soldiers have caused. Not too far away, you see the debris of a building move a little. There is someone trapped under it. Quickly you get up an rush over there to help whoever is trapped under the rubble. Heaving away some lumber you see moving scales. The thing under the rubble is finally able to shake off the rest of the rubble, revealing a dragon, with a gash in it's side.
+						You see smoke in the forest some distance off, the soldiers notice it, and head in that direction. You're safe now, the soldiers are gone, no one is around. You stand up, looking around, and see the ruin the soldiers have caused. Not too far away, you see the debris of a building move a little. There is someone trapped under it. Quickly you get up an rush over there to help whoever is trapped under the rubble. Heaving away some lumber you see moving scales. The thing under the rubble is finally able to shake off the rest of the rubble, revealing a dragon, with a gash in it's side.
 
 
 2- Choice: Go towards the farm
-Dialog 2:
+		Dialog 2:
 			As you approach the farm, you see that the soldiers are setting the farm ablaze. Farm animals are escaping from the barn, and running towards a near by field, where no soldiers are posted. Towards the entrance of the stables is an old man, stabbed through the heart, pegged to a wall. His eyes were widened in horror. A soldier must have stabbed him, as he was trying to free his animals. You hear a woman's scream, and notice a few yards off group of soldiers ripping away her clothes.
 
-	2.1 - Choice: Use the animals to distract the soldiers, while you rescue the girl
-			You grab a piece of wood that is on fire, and run out into the pasture where the animals are. You use the piece of wood to scare the animals back towards the soldiers. As the animals stampede towards the soldiers, they scatter, and disappear back into the woods being chased by the animals. The girl is left alone in her tattered clothes. Still in a panic, the girl gathers her disarrayed clothes, and runs towards a near-by town. The farm's building are crashing down as the flames lick away at their framework, you start to hear screams and run towards the building they are coming from. As you approach you notice an animal stumbling through the flames. You come closer, not wanting to enter a building on fire, but concerned about the screaming animal. As the animal begins to come closer out of the flames, you realize that it is an injured dragon, with a spear through it's wing!
+				Choice #1: Use the animals to distract the soldiers, while you rescue the girl
+					Dialog 2.1:
+							You grab a piece of wood that is on fire, and run out into the pasture where the animals are. You use the piece of wood to scare the animals back towards the soldiers. As the animals stampede towards the soldiers, they scatter, and disappear back into the woods being chased by the animals. The girl is left alone in her tattered clothes. Still in a panic, the girl gathers her disarrayed clothes, and runs towards a near-by town. The farm's building are crashing down as the flames lick away at their framework, you start to hear screams and run towards the building they are coming from. As you approach you notice an animal stumbling through the flames. You come closer, not wanting to enter a building on fire, but concerned about the screaming animal. As the animal begins to come closer out of the flames, you realize that it is an injured dragon, with a spear through it's wing!
 
 	2.2 - Choice: Take the sword from the dead-mans body, and defend the girl
 			You think quickly and take the sword from the dead-mans body, and charge the soldiers! Suddenly a line of fire appears before you! You look up and see a dragon fly in the sky, it roars, and more fire comes shooting out of it's mouth! The soldier's carriage is set ablaze, and a screaming man comes out covered in flames. The soldiers have stopped attacking the girl, and turned their attention towards the dragon. The archers shoot at the dragon, an arrow hitting it in the wing, tearing the fragile membranous tissue. The dragon lets out a terrible scream of pain and lands on the ground, the soldiers close in, it spits more fire at the soldiers, and eats one. The soldiers realize they are no match for this beast, even if it is wounded, and disperse into the forest. The girl looks at you in fear, and run towards the town, gathering her tattered dress about her.
