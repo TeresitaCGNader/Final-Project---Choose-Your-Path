@@ -1,5 +1,5 @@
 // Grab the todo template from Handlebars.
-var todoTemplate = Handlebars.templates.todo;
+var dialogTemplate = Handlebars.templates.dialog;
 
 /*
  * This function should create an HTML string representing a new todo note
@@ -18,5 +18,5 @@ function generateTodoHTML(dialog, dialogText, choice, choice1Text, choice1Link, 
     who: who,
     details: details}
   }
-  return todoTemplate(data);
+  return dialogTemplate(data);
 }
