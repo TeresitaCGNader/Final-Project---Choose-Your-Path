@@ -48,13 +48,13 @@
     },
 
   "dialog11": {
-        "dialogText": "dialog 1 text",
+        "dialogText": "Before you can move a spout of flame falls from the sky and in a second all the soldiers are gone. There is no trace of them, not even a piece of armor. Suddenly you hear those strange screams. You follow the noise till you reach a beautiful hot spring. At the shore of the hot spring you notice a scaled figure covered in blood. As you approach you realiz  its a dragon. You have never seen one before, but you had heard of these large scaled creatures that breathe fire.",
         "choice": {
-          "choice1Text": "Cloud City Bridge",
-          "choice1Link": "Don't forget lightsaber",
-          "choice2Text": "text",
-          "choice2Link": "link",
-          "choice3Text": "text",
+          "choice1Text": "Help the dragon",
+          "choice1Link": "/dialogs-data/ending1",
+          "choice2Text": "Kill the dragon",
+          "choice2Link": "/ending2",
+          "choice3Text": "Call the soldiers",
           "choice3Link": "link"
         }
     },
