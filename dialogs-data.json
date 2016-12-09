@@ -1,18 +1,18 @@
 {
   "dialog": {
-        "dialogText": "dialogs data dialog0",
+        "dialogText": "Upon his death bed your grandfather holds your hand and explains \"You see this house, when your father was alive he wanted you to live peacefully without worrying about money so he had begun to build this place for you and your mother, unfortunately they both died in that horrible accident and he couldn't finish the task. I love you, since the first time I saw you when you were little and all these years taking care of you have been wonderful, but I am very old and my time is counted. My dear I want you to have this house, and live a happy life like your father and mother wanted for you.\"",
         "choice": {
-          "choice1Text": "dialogs data choice 1",
-          "choice1Link": "/dialog1.html",
-          "choice2Text": "text",
+          "choice1Text": "Go towards the town",
+          "choice1Link": "/dialogs-data/dialog1",
+          "choice2Text": "Go towards the farm",
           "choice2Link": "link",
-          "choice3Text": "text",
+          "choice3Text": "Go towards the forest",
           "choice3Link": "link"
         }
     },
 
     "dialog1": {
-          "dialogText": "Meet up with Dad",
+          "dialogText": "dialog 1 text",
           "choice": {
             "choice1Text": "Cloud City Bridge",
             "choice1Link": "Don't forget lightsaber",
