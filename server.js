@@ -95,7 +95,7 @@ app.get('/OurGame', function (req, res) {
 
 /*
  * Use a dynamic route to render a page for each individual dialog. Provide
- * that dialog's data to Handlebars so it can fill out the dialog-page.
+ * that dialog's data to Handlebars so it can fill out the dialog-page template.
  */
 app.get('/dialogs-data/:dialog', function (req, res, next) {
     var dialog = usersData[req.params.dialog];
