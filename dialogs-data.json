@@ -107,50 +107,50 @@
     },
 
   "dialog23": {
-        "dialogText": "dialog 1 text",
+        "dialogText": "You hide behind a nearby tree and shout \"The royal guard is coming!\" The guards stop harassing the girl, and mumble to each other before running off into the woods. The girl looks around in panic, and runs down the road towards in the direction of both a near-by town, and where the royal guard would have come from. The farm's buildings are crashing down as the flames lick aware at their framework, you start to hear screams and run towards the building they are coming from. As you approach you notice an animal stumbling through the flames. You come closer, not wanting to enter a burning building, but are concerned about the screaming animal. As the animal begins to come closer out of the flames, you realize that it is an injured dragon, with a spear through it's wing!",
         "choice": {
-          "choice1Text": "Cloud City Bridge",
-          "choice1Link": "Don't forget lightsaber",
-          "choice2Text": "text",
-          "choice2Link": "link",
-          "choice3Text": "text",
-          "choice3Link": "link"
+          "choice1Text": "Help the dragon",
+          "choice1Link": "/ending1.html",
+          "choice2Text": "Kill the dragon",
+          "choice2Link": "/ending2.html",
+          "choice3Text": "Call the soldiers",
+          "choice3Link": "/ending3.html"
         }
     },
 
   "dialog31": {
-        "dialogText": "dialog 1 text",
+        "dialogText": "You start to chase the soldiers, when suddenly a root catches your foot, and you're hurled down a hillside. You're unable to catch yourself, and tumble down into a bush. You're a little scratched up, but not too bad, all your limbs are still attached, after making note of this you start to climb out of the bush, but stop as you see the scene in front of you. There is a pond not too far from you, the sun is shining down on it from a break in the trees, and you see a dragon emerge from the water. You notice that there is a large slash in it's side, and it laboriously makes it's way to the shoreline of the pond. With each step, the dragon begins to shine brighter and brighter. Soon the dragon is so bright you can't look at it and have to cover your eyes, through gaps in your fingers you can tell that the shape of the dragon is becoming thinner, smaller. The glowing fades away to reveal a man sitting on the shoreline, dressed in commoner clothes. He is holding his side where he is injured to stop the bleeding.",
         "choice": {
-          "choice1Text": "Cloud City Bridge",
-          "choice1Link": "Don't forget lightsaber",
-          "choice2Text": "text",
-          "choice2Link": "link",
-          "choice3Text": "text",
-          "choice3Link": "link"
+          "choice1Text": "Help the dragon",
+          "choice1Link": "/ending1.html",
+          "choice2Text": "Kill the dragon",
+          "choice2Link": "/ending2.html",
+          "choice3Text": "Call the soldiers",
+          "choice3Link": "/ending3.html"
         }
     },
 
   "dialog32": {
-        "dialogText": "dialog 1 text",
+        "dialogText": "Running in the opposite direction the soldiers went, you come to a small clearing, and find a cabin and a small barn close by. It looks abandoned. No one has lived here in a long time it looks like it. Still, you approach the door of the cabin and knock on it. \"Hello? Is anyone home?\" you call. No response. The door swings open upon touching it to reveal cobwebs, and knocked over shelves. The bed is broken, and all the food that was there rotted along time ago. You hear some rustling coming from the barn, and walk over there. As you approach you hear labored breathing. Something big is in there! You crack open the door of the barn and see a dragon laying on the floor. There is a huge gash in it's side, and blood is pooling around it.",
         "choice": {
-          "choice1Text": "Cloud City Bridge",
-          "choice1Link": "Don't forget lightsaber",
-          "choice2Text": "text",
-          "choice2Link": "link",
-          "choice3Text": "text",
-          "choice3Link": "link"
+          "choice1Text": "Help the dragon",
+          "choice1Link": "/ending1.html",
+          "choice2Text": "Kill the dragon",
+          "choice2Link": "/ending2.html",
+          "choice3Text": "Call the soldiers",
+          "choice3Link": "/ending3.html"
         }
     },
 
   "dialog33": {
-        "dialogText": "dialog 1 text",
+        "dialogText": "You walk over to the mangled bodies of the cubs, tears welling in your eyes. \"How dare they hurt you,\" you whisper. Kneeling down, you being to dig a hole for them. You hear a roar of pain, branches crack, as something heavy crashes through the canopy of the trees behind you. You spin to see a dragon crash to the ground, a huge slash is in it's side.",
         "choice": {
-          "choice1Text": "Cloud City Bridge",
-          "choice1Link": "Don't forget lightsaber",
-          "choice2Text": "text",
-          "choice2Link": "link",
-          "choice3Text": "text",
-          "choice3Link": "link"
+          "choice1Text": "Help the dragon",
+          "choice1Link": "/ending1.html",
+          "choice2Text": "Kill the dragon",
+          "choice2Link": "/ending2.html",
+          "choice3Text": "Call the soldiers",
+          "choice3Link": "/ending3.html"
     }
   }
 }
