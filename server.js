@@ -129,11 +129,6 @@ app.get('*', function(req, res) {
   });
 });
 
-/*
- * Make a connection to our MySQL database.  This connection will persist for
- * as long as our server is running.  Start the server listening on the
- * specified port if we succeeded in opening the connection.
- */
  // Listen on the specified port.
  app.listen(port, function () {
    console.log("== Listening on port", port);
