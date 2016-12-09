@@ -5,21 +5,152 @@
           "choice1Text": "Go towards the town",
           "choice1Link": "/dialogs-data/dialog1",
           "choice2Text": "Go towards the farm",
-          "choice2Link": "link",
+          "choice2Link": "/dialogs-data/dialog2",
           "choice3Text": "Go towards the forest",
+          "choice3Link": "/dialogs-data/dialog3"
+        }
+    },
+
+  "dialog1": {
+        "dialogText": "dialog 1 text",
+        "choice": {
+          "choice1Text": "Cloud City Bridge",
+          "choice1Link": "Don't forget lightsaber",
+          "choice2Text": "text",
+          "choice2Link": "link",
+          "choice3Text": "text",
           "choice3Link": "link"
         }
     },
 
-    "dialog1": {
-          "dialogText": "dialog 1 text",
-          "choice": {
-            "choice1Text": "Cloud City Bridge",
-            "choice1Link": "Don't forget lightsaber",
-            "choice2Text": "text",
-            "choice2Link": "link",
-            "choice3Text": "text",
-            "choice3Link": "link"
-      }
+  "dialog2": {
+        "dialogText": "dialog 2 text",
+        "choice": {
+          "choice1Text": "Cloud City Bridge",
+          "choice1Link": "Don't forget lightsaber",
+          "choice2Text": "text",
+          "choice2Link": "link",
+          "choice3Text": "text",
+          "choice3Link": "link"
+        }
+    },
+
+  "dialog3": {
+        "dialogText": "dialog 1 text",
+        "choice": {
+          "choice1Text": "Cloud City Bridge",
+          "choice1Link": "Don't forget lightsaber",
+          "choice2Text": "text",
+          "choice2Link": "link",
+          "choice3Text": "text",
+          "choice3Link": "link"
+        }
+    },
+
+  "dialog11": {
+        "dialogText": "dialog 1 text",
+        "choice": {
+          "choice1Text": "Cloud City Bridge",
+          "choice1Link": "Don't forget lightsaber",
+          "choice2Text": "text",
+          "choice2Link": "link",
+          "choice3Text": "text",
+          "choice3Link": "link"
+        }
+    },
+
+  "dialog12": {
+        "dialogText": "dialog 1 text",
+        "choice": {
+          "choice1Text": "Cloud City Bridge",
+          "choice1Link": "Don't forget lightsaber",
+          "choice2Text": "text",
+          "choice2Link": "link",
+          "choice3Text": "text",
+          "choice3Link": "link"
+        }
+    },
+  "dialog13": {
+        "dialogText": "dialog 1 text",
+        "choice": {
+          "choice1Text": "Cloud City Bridge",
+          "choice1Link": "Don't forget lightsaber",
+          "choice2Text": "text",
+          "choice2Link": "link",
+          "choice3Text": "text",
+          "choice3Link": "link"
+        }
+    },
+
+  "dialog21": {
+        "dialogText": "dialog 1 text",
+        "choice": {
+          "choice1Text": "Cloud City Bridge",
+          "choice1Link": "Don't forget lightsaber",
+          "choice2Text": "text",
+          "choice2Link": "link",
+          "choice3Text": "text",
+          "choice3Link": "link"
+        }
+    },
+
+  "dialog22": {
+        "dialogText": "dialog 1 text",
+        "choice": {
+          "choice1Text": "Cloud City Bridge",
+          "choice1Link": "Don't forget lightsaber",
+          "choice2Text": "text",
+          "choice2Link": "link",
+          "choice3Text": "text",
+          "choice3Link": "link"
+        }
+    },
+
+  "dialog23": {
+        "dialogText": "dialog 1 text",
+        "choice": {
+          "choice1Text": "Cloud City Bridge",
+          "choice1Link": "Don't forget lightsaber",
+          "choice2Text": "text",
+          "choice2Link": "link",
+          "choice3Text": "text",
+          "choice3Link": "link"
+        }
+    },
+
+  "dialog31": {
+        "dialogText": "dialog 1 text",
+        "choice": {
+          "choice1Text": "Cloud City Bridge",
+          "choice1Link": "Don't forget lightsaber",
+          "choice2Text": "text",
+          "choice2Link": "link",
+          "choice3Text": "text",
+          "choice3Link": "link"
+        }
+    },
+
+  "dialog32": {
+        "dialogText": "dialog 1 text",
+        "choice": {
+          "choice1Text": "Cloud City Bridge",
+          "choice1Link": "Don't forget lightsaber",
+          "choice2Text": "text",
+          "choice2Link": "link",
+          "choice3Text": "text",
+          "choice3Link": "link"
+        }
+    },
+
+  "dialog33": {
+        "dialogText": "dialog 1 text",
+        "choice": {
+          "choice1Text": "Cloud City Bridge",
+          "choice1Link": "Don't forget lightsaber",
+          "choice2Text": "text",
+          "choice2Link": "link",
+          "choice3Text": "text",
+          "choice3Link": "link"
+    }
   }
 }
