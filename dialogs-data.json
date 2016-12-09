@@ -51,34 +51,34 @@
         "dialogText": "Before you can move a spout of flame falls from the sky and in a second all the soldiers are gone. There is no trace of them, not even a piece of armor. Suddenly you hear those strange screams. You follow the noise till you reach a beautiful hot spring. At the shore of the hot spring you notice a scaled figure covered in blood. As you approach you realiz  its a dragon. You have never seen one before, but you had heard of these large scaled creatures that breathe fire.",
         "choice": {
           "choice1Text": "Help the dragon",
-          "choice1Link": "/dialogs-data/ending1",
+          "choice1Link": "/ending1.html",
           "choice2Text": "Kill the dragon",
-          "choice2Link": "/ending2",
+          "choice2Link": "/ending2.html",
           "choice3Text": "Call the soldiers",
-          "choice3Link": "link"
+          "choice3Link": "/ending3.html"
         }
     },
 
   "dialog12": {
-        "dialogText": "dialog 1 text",
+        "dialogText": "You enter the forest and you hear the soldiers footsteps as they enter the town. You duck into some near-by bushes, and wait until you can distinguish both the location and the intentions of the soldiers. As the soldiers come into sight, you see that the soldiers are dragging a chain net. At first you don't realize what is in it, it looks strange and foreign, but it dawns on you that it is a dragon! The dragon moves desperately to break from the net and after some struggle he escapes and kills the soldiers. The dragon hasn't noticed you, but you can see how his movements are getting slower as he seems to be losing blood from the wound on his side.",
         "choice": {
-          "choice1Text": "Cloud City Bridge",
-          "choice1Link": "Don't forget lightsaber",
-          "choice2Text": "text",
-          "choice2Link": "link",
-          "choice3Text": "text",
-          "choice3Link": "link"
+          "choice1Text": "Help the dragon",
+          "choice1Link": "/ending1.html",
+          "choice2Text": "Kill the dragon",
+          "choice2Link": "/ending2.html",
+          "choice3Text": "Call the soldiers",
+          "choice3Link": "/ending3.html"
         }
     },
   "dialog13": {
-        "dialogText": "dialog 1 text",
+        "dialogText": "The soldier approaches you aggressively. His brows are furrowed, and he draws his sword, and quickly slashes at you. You feel a shot of pain in your abdomen and fall to the ground. With his business done, the soldier walks back to his troupe. You realize you aren't mortally hurt, but it was such a surprise that he did that! Not wanting to confront another solider, or worse, have them actually kill you, you decide to just lay there pretending to be dead. You see smoke in the forest some distance off, the soldiers notice it, and head in that direction. You're safe now, the soldiers are gone, no one is around. You stand up, looking around, and see the ruin the soldiers have caused. Not too far away, you see the debris of a building move a little. There is someone trapped under it. Quickly you get up an rush over there to help whoever is trapped under the rubble. Heaving away some lumber you see moving scales. The thing under the rubble is finally able to shake off the rest of the rubble, revealing a dragon, with a gash in it's side.",
         "choice": {
-          "choice1Text": "Cloud City Bridge",
-          "choice1Link": "Don't forget lightsaber",
-          "choice2Text": "text",
-          "choice2Link": "link",
-          "choice3Text": "text",
-          "choice3Link": "link"
+          "choice1Text": "Help the dragon",
+          "choice1Link": "/ending1.html",
+          "choice2Text": "Kill the dragon",
+          "choice2Link": "/ending2.html",
+          "choice3Text": "Call the soldiers",
+          "choice3Link": "/ending3.html"
         }
     },
 
