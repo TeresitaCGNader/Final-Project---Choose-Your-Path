@@ -9,14 +9,14 @@ var todoTemplate = Handlebars.templates.todo;
  * is the case, the corresponding portion of the todo note should not be
  * included in the HTML string.
  */
-function generateTodoHTML(what, where, when, who, details) {
+function generateTodoHTML(dialog, dialogText, choice, choice1Text, choice1Link, choice2Text, choice2Link, choice3Text, choice3Link) {
   var data = {
     what: what,
     body: {
     where: where,
     when: when,
     who: who,
-    details: details} 
+    details: details}
   }
   return todoTemplate(data);
 }
