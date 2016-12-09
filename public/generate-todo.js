@@ -11,12 +11,13 @@ var dialogTemplate = Handlebars.templates.dialog;
  */
 function generateTodoHTML(dialog, dialogText, choice, choice1Text, choice1Link, choice2Text, choice2Link, choice3Text, choice3Link) {
   var data = {
-    what: what,
-    body: {
-    where: where,
-    when: when,
-    who: who,
-    details: details}
+    dialogText: dialogText,
+    choice: {
+    choice1Text: choice1Text,
+    choice1Link: choice1Link,
+    choice2Text: choice2Text,
+    choice2Link: choice2Link,
+    choice3Text: choice3Link}
   }
   return dialogTemplate(data);
 }
