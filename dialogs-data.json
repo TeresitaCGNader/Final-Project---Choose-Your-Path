@@ -36,14 +36,14 @@
     },
 
   "dialog3": {
-        "dialogText": "dialog 1 text",
+        "dialogText": "You run into the forest, you heart is pumping, vines are tearing at you as you hazardously dive deeper and deeper into the forest. You see a group of soldiers being attacked by a grizzly bear. Not far away you see three fur covered lumps on the ground, the bear's cubs. Their body's looked deformed because their bones had been broken. After some struggle, the soldiers are able to kill the bear, because she lost so much blood from them stabbing her with their spears. After defeating the bear, one soldier stabs her one more time for good measure, as the soldiers leave they take no notice of the cub's bodies, stepping on them as they walk away.",
         "choice": {
-          "choice1Text": "Cloud City Bridge",
-          "choice1Link": "Don't forget lightsaber",
-          "choice2Text": "text",
-          "choice2Link": "link",
-          "choice3Text": "text",
-          "choice3Link": "link"
+          "choice1Text": "Chase the soldiers",
+          "choice1Link": "/dialogs-data/dialog31",
+          "choice2Text": "Run in the opposite direction the soldiers had gone",
+          "choice2Link": "/dialogs-data/dialog32",
+          "choice3Text": "Burry the body's of the bears",
+          "choice3Link": "/dialogs-data/dialog33"
         }
     },
 
