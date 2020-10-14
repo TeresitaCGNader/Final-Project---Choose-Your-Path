@@ -2,7 +2,7 @@
 
 
 # Final-Project---Choose-Your-Path
-Repository for the development of the Web Page "Choose Your Path"
-by The Lovelaces for OSU Web Development class (CS 290).
 
 **Project Proposal:** https://docs.google.com/document/d/1AEmQqkefJaDxDrRateideRDoYao6rR0c8H_NGxLMtbw/edit?usp=sharing
+
+Team project for CS 290 (Web Development) class at Oregon State University. This project consisted on creating a website and an interactive game hosted on the website.  
